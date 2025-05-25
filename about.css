@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.banner h1{
+    color: rgb(139, 238, 185);
+    text-align: center;
+}
+.banner p{
+    color: aqua;
+    text-align: center;
+}
