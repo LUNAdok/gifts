@@ -2,11 +2,58 @@
     margin: 0px;
     padding: 0px;
 }
+.slogan h4{
+    color: bisque;
+    text-align: center;
+}
+.slogan p {
+color: aqua;
+text-align: center;
+}
+.banner {
+    display: flex;
+    flex-direction: column;
+}
+body{
+    background: linear-gradient(rgb(130, 167, 161) , rgb(166, 221, 213) , rgb(201, 255, 251));
+    
+}
+.art{
+        border-radius: 200px;
+}
 .banner h1{
-    color: rgb(139, 238, 185);
-    text-align: center;
+    display: flex;
+    top: 3px;
+    bottom: 1px;
+    
 }
-.banner p{
-    color: aqua;
-    text-align: center;
+
+h4
+{
+    display: flex;
+    justify-content: center;
+    font-size:30px;
+
 }
+
+p{
+      display: flex;
+    justify-content: center;
+}
+.banner h2{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 500px;
+    bottom: 1px;
+    top: 1px;
+}
+.banner h3{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 1000px;
+    bottom: 1px;
+    top: 1px;
+}
+
