@@ -18,10 +18,19 @@
     flex-direction: column;
 
 }
-body{
+html{
     background: linear-gradient(rgb(130, 167, 161) , rgb(166, 221, 213) , rgb(201, 255, 251));
-    
+     min-height: 100%;
+     background-attachment: fixed;
 }
 .art{
         border-radius: 200px;
+}
+footer
+{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-top: 20px;
 }
